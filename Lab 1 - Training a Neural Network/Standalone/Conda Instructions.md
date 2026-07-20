@@ -4,7 +4,7 @@ In this version of the lab, you will be using the conda environment in the VM, a
 
 ## Step 1: Lab directory
 
-Open the `Conda prompt` that is pinned to your task bar. Do not use a regular prompt since it doesn't have Anaconda on its path.
+Open the `Command Prompt` that is pinned to your task bar. It already has Anaconda on its path.
 
 It will default to the `(base)` environment
 

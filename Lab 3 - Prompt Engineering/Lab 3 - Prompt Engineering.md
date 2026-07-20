@@ -14,7 +14,7 @@ Visual Studio code is installws, but you may want to add the Python extension to
 
 ## Conda Setup
 
-Open a conda terminal from the icon on the taskbar.
+Open a Command Prompt from the icon on the taskbar.
 
 Create a directory to store your work in, in this case, we are using c:\lab3.
 
@@ -54,7 +54,7 @@ This key will be invalidated at the end of today's class.
 
 <img src="images/lab3-4.png" />
 
-In the conda shell, set the environment variable `OPENAI_API_KEY` to this value as shown. If you open a different shell, you will have to recreate this environment variable in the new shell. Print out the value to be sure you set it correctly.
+In the Command Prompt, set the environment variable `OPENAI_API_KEY` to this value as shown. If you open a different shell, you will have to recreate this environment variable in the new shell. Print out the value to be sure you set it correctly.
 
 **For Command Prompt:**
 ```cmd

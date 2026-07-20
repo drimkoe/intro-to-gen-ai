@@ -14,7 +14,7 @@ You can continue to use the same conda environment you used in lab 3/
 
 ## Part 1: Unstructured
 
-Just like in the previous lab, run the following scrip `lab4a.py` in the conda console
+Just like in the previous lab, run the following script `lab4a.py` in the Command Prompt
 
 ```python
 
