@@ -1,10 +1,18 @@
 
 
+"""
+Lab 4d - Secure Coding Requirements
+This script adds explicit security requirements to our prompt.
+If you don't ask for security, the LLM might take shortcuts (like leaving debug mode on).
+"""
 from openai import OpenAI
 
 # Create client
 client = OpenAI()
 
+# By explicitly calling out "Security Requirements" and mentioning frameworks
+# like OWASP, we trigger the LLM's knowledge base on security best practices.
+# We also explicitly forbid hardcoded secrets and require input sanitization.
 prompt="""Create a minimal but production-quality Python 3.11 Flask web application
         that exposes a single HTTP GET endpoint at the root path ("/")
         and returns the text "Hello, World!".

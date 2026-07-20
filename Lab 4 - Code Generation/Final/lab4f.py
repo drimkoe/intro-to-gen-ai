@@ -1,3 +1,8 @@
+"""
+Lab 4f - QA Automation Prompt (Code as Context)
+This script demonstrates how to switch the LLM's role to a QA Engineer.
+By providing the source code as context, we can ask it to generate comprehensive tests.
+"""
 from openai import OpenAI
 
 client = OpenAI()
@@ -5,6 +10,8 @@ client = OpenAI()
 with open("Hello.py", "r", encoding="utf-8") as f:
     flask_code = f.read()
 
+# Notice how we use role-playing ("You are a senior QA automation engineer").
+# This sets the persona, increasing the rigor and structure of the LLM's response.
 prompt = f"""
 You are a senior QA automation engineer.
 

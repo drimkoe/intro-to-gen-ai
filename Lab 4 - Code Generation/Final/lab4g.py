@@ -1,3 +1,8 @@
+"""
+Lab 4g - DevOps Dockerfile Generation
+This script demonstrates role-playing as a DevOps engineer to generate
+infrastructure-as-code (a Dockerfile) based on the application code.
+"""
 from openai import OpenAI
 
 client = OpenAI()
@@ -6,6 +11,9 @@ client = OpenAI()
 with open("Hello.py", "r", encoding="utf-8") as f:
     flask_code = f.read()
 
+# By explicitly asking for "best practices for Docker layering" and 
+# "minimal base image", we ensure the resulting Dockerfile is production-ready,
+# not just a naive implementation.
 prompt = f"""
 You are a senior DevOps engineer specializing in containerization.
 

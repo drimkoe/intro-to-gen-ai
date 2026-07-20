@@ -1,10 +1,17 @@
 
 
+"""
+Lab 4e - Coding Standards
+This script demonstrates specifying explicit coding standards like PEP 8.
+"""
 from openai import OpenAI
 
 # Create client
 client = OpenAI()
 
+# We ask the LLM to follow standard conventions (PEP 8, PEP 257 for docstrings,
+# type hints, and structural guards). This makes the output instantly readable
+# and maintainable for a human developer.
 prompt="""Create a minimal but production-quality Python 3.11 Flask web application
         that exposes a single HTTP GET endpoint at the root path ("/")
         and returns the text "Hello, World!".
