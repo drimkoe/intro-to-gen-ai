@@ -19,4 +19,8 @@ This repository contains the markdown instructions for each lab session. Because
     git clone https://github.com/drimkoe/intro-to-gen-ai.git
     ```
 
+## Note on VS Code and Jupyter Notebooks
+
+If you are using Visual Studio Code to open the `.ipynb` notebooks for the first time, you will need to install the **Python** and **Jupyter** extensions when you select a kernel. VS Code should prompt you to do this automatically.
+
 Happy learning!
