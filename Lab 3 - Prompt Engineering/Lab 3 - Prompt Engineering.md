@@ -56,9 +56,16 @@ This key will be invalidated at the end of today's class.
 
 In the conda shell, set the environment variable `OPENAI_API_KEY` to this value as shown. If you open a different shell, you will have to recreate this environment variable in the new shell. Print out the value to be sure you set it correctly.
 
-```bash
+**For Command Prompt:**
+```cmd
 set OPENAI_API_KEY=sk.....
 echo %OPENAI_API_KEY%
+```
+
+**For PowerShell:**
+```powershell
+$env:OPENAI_API_KEY="sk....."
+echo $env:OPENAI_API_KEY
 ```
 
 <img src="images/lab3-5.png" />

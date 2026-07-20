@@ -11,9 +11,8 @@ It will default to the `(base)` environment
 In this shell, create the `lab2` directory and locate to it.
 
 ```bash
-(base) C:\Users\micro>mkdir \lab2
-(base) C:\Users\micro>cd \lab2
-(base) C:\lab2>
+mkdir \lab2
+cd \lab2
 ```
 
 ## Step 2: Conda environment
@@ -30,15 +29,7 @@ conda activate vae
 First, we need to install `pip`. In the example below, pip is already installed by you will need to install it on your VM environment.
 
 ```bash
-(transformer) C:\lab1>conda install pip
-Channels:
- - defaults
-Platform: win-64
-Collecting package metadata (repodata.json): done
-Solving environment: done
-
-# All requested packages already installed.
-
+conda install pip
 ```
 
 Now install all the tools you need for your lab.
