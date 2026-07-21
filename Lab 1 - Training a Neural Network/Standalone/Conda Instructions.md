@@ -41,7 +41,7 @@ conda install pip
 Now install all the tools you need for your lab.
 
 ```bash
-pip install torch transformers datasets accelerate tokenizers numpy matplotlib scikit-learn
+pip install torch torchvision torchaudio transformers datasets accelerate tokenizers numpy matplotlib scikit-learn
 ```
 
 Optional sanity check, list the packages installed in the environment
