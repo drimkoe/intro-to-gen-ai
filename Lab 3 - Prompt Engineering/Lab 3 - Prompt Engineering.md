@@ -46,7 +46,7 @@ pip list
 
 You need to supply an API key to use OpenAI. This key cannot be included in the repository since the security scans for GitHub won't allow it.
 
-Instead, you can find it at the url `https://exgnosis.org/oai.txt`  Open this url in a browser _in the VM_ otherwise you won't be able to copy and paste it.
+Instead, you can find it at the url `https://trainingpub.blob.core.windows.net/training/key.txt`  Open this url in a browser _in the VM_ otherwise you won't be able to copy and paste it.
 
 Copy the key to the clipboard. 
 
